@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <div class="controls">
+      <button class="btn blue" onclick="start()">Start</button>
+      <button class="btn blue" onclick="pause()">Pause</button>
+      <button class="btn blue" onclick="stop()">Stop</button>
+      <button class="btn blue" onclick="restart()">Restart</button>
+      <button class="btn blue" onclick="lap()">Lap</button>
+      <button class="btn blue" onclick="resetLaps()">Reset Laps</button>
+    </div>
+    <div class="stopwatch">00:00:00</div>
+    <ul class="laps"></ul>
+
+    <div class="attribution">
+      <p>
+        Coded by
+        <a href="https://github.com/a-padhy"> Ashutosh Padhy</a>.
+      </p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
